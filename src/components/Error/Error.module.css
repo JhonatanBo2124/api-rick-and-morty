@@ -1,0 +1,12 @@
+.container {
+    font-family: 'Creepster', cursive;
+    font-size: 150px;
+    color: white;
+    background-color: darkslategray;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.imagen {
+    width: 30%;
+    height: 30%;
+}

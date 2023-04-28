@@ -1,0 +1,14 @@
+.favStyle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.options {
+    font-size: 20px;
+    font-family: 'Creepster', cursive;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}

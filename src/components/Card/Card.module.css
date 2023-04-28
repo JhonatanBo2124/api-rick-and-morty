@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Cutive+Mono&display=swap');
+
+.cardStyle {
+    background-color: black;
+    font-family: 'Cutive Mono', monospace;  
+    opacity: 0.9;
+    color: white;
+    height: 600px;
+    width: 300px;
+    padding: 90px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid white;
+}
+.cardStyle:hover {
+    background-color: white;
+    color: black;
+}
+.cardStyle:hover .boton {
+    opacity: 1;
+    background-color: red;
+    color: white;
+}
+.cardStyle:hover .nombre {
+    color: black;
+}
+.imagen {
+    border-radius: 20px;
+    width: 80%;
+}
+.boton {
+    opacity: 0.3;
+    background-color: gray;
+    color: black;
+    font-size: 25px;
+    font-family: 'Cutive Mono', monospace;
+    /* margin-left: 80%; */
+    border-radius: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.nombre {
+    font-family: 'Creepster', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}

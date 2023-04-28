@@ -1,0 +1,30 @@
+.App {
+   /* background-image: url('https://wallpapercave.com/wp/wp6445011.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed; */
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   text-align: center;
+   align-items: center;
+
+   background: url('./images/WonderfulRickandMorty.jpg') no-repeat center fixed;
+   background-size: cover;
+}
+.nav {
+   display: flex;
+   justify-content: space-between;
+   margin: 20px;
+}
+.Imagen {
+   width: 20%;
+   height: 20%;
+}
+.logo {
+   width: 50%;
+   height: 50%;
+   margin: 30px;
+}

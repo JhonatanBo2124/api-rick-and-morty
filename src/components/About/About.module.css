@@ -1,0 +1,35 @@
+.container{
+    background-color: black;
+    opacity: 0.8;
+    background-size: cover;
+    width: 1000px;
+    height: 600px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.titulo {
+    font-family: 'Creepster', cursive;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+.imagen {
+    width: 30%;
+    height: 50%;
+    border-radius: 100%;
+    margin-left: 80px;
+}
+.info {
+    display: flex;
+}
+.cuerpo {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    margin: 30px;
+    font-size: 20px;
+}
+.boton {
+    width: 80px;
+    height: 80px;
+}

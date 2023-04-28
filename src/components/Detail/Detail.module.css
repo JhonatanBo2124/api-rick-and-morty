@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    margin: 17.5px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px;
+}
+.titulo {
+    background-color: red;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+.info {
+    padding: 5px;
+    margin: 10px;
+    /* border-radius: 20px; */
+    border-left: 8px solid black;
+    font-size: 25px;
+    font-family: 'Cutive Mono', monospace;
+}
+.borde {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 30px;
+}
+.imagen {
+    border: 3px solid black;
+    border-radius: 100%;
+    margin-right: 30px;
+    height: 70%;
+}
+.nombre {
+    font-family: 'Creepster', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
