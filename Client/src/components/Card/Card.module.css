@@ -16,6 +16,8 @@
 .cardStyle:hover {
     background-color: white;
     color: black;
+    transition-duration: 500ms;
+    transform: scale(1.1);
 }
 .cardStyle:hover .boton {
     opacity: 1;

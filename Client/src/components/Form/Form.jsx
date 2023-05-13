@@ -19,9 +19,12 @@ const Forms = ({login}) => {
         setErrors(validaciones(userData));
     };
 
+    const submitHandler = (event) => {
+        event.preventDefault();
+    }
     return (
         <div className={style.container}>
-        <form className={style.formulario}>
+        <form className={style.formulario} onSubmit={submitHandler}>
             <img src={logo} className={style.imagen} alt="" />
             <label>Email: </label>
             <input className={style.input} type="text" placeholder='Email' name="email" onChange={handleChange}></input>

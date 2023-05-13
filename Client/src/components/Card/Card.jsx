@@ -7,7 +7,6 @@ import { useDispatch } from 'react-redux';
 
 
 export default function Card(props) {
-
    let [isFav, setIsFav] = useState(false);
 
    const myFavorites = useSelector((state) => state.myFavorites)
@@ -28,7 +27,6 @@ export default function Card(props) {
       } else {
          setIsFav(true);
          dispatch(addFav(props));
-
       }
    }
 
